@@ -1,5 +1,4 @@
 /* COMMON */
-
 html, body {
     margin: 0;
     padding: 0;
@@ -15,7 +14,6 @@ html, body {
 }
 
 /* THEME */
-
 .theme_color_project-default {
     --theme_color_default: #FFFFFF;
     --theme_color_accent: #ffcc00;
@@ -91,7 +89,6 @@ html, body {
 }
 
 /* LAYOUT */
-
 .layout__container_align_center {
     margin: 0 auto;
 }
@@ -162,7 +159,6 @@ html, body {
 
 
 /* CARD */
-
 .card {
     display: flex;
     flex-direction: column;
@@ -417,7 +413,6 @@ card__footer_vertical-align_center {
 }
 
 /* LIST */
-
 .list {
     display: flex;
     flex-direction: column;
@@ -478,7 +473,6 @@ card__footer_vertical-align_center {
 }
 
 /* SECTION */
-
 .section_indent-b_xxl {
     margin-bottom: var(--space_xxl);
 }
@@ -646,7 +640,6 @@ card__footer_vertical-align_center {
 }
 
 /* AVATAR */
-
 .avatar {
     background-color: var(--theme_color_text_default);
 }
@@ -727,7 +720,6 @@ card__footer_vertical-align_center {
 }
 
 /* INPUT */
-
 .input {
     border: 3px solid var(--theme_color_border);
     max-width: 100%;
@@ -848,7 +840,6 @@ card__footer_vertical-align_center {
 }
 
 /* COVER */
-
 .cover {
     min-height: 472px;
 }
@@ -856,7 +847,6 @@ card__footer_vertical-align_center {
     margin-bottom: var(--space_l);
     height: 180px;
 }
-
 
 /* EVENT */
 .event {
@@ -949,7 +939,6 @@ transform: translateY(2px);
 }
 
 /* FOOTER */
-
 .footer {
     padding: var(--space_xxxl) var(--gap);
 }
@@ -975,40 +964,21 @@ transform: translateY(2px);
     background-position: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 1024px) {  
-    .theme_gap_small {
-        --gap: 15px;
-      }
-      /* .grid_row-gap_half {
-        grid-row-gap: 10.5px;
-    } */
-      .grid {
-        grid-template-columns: 1fr;
-      }
-      .grid__fraction {
-        grid-column: span 1;
-      }
+    .theme_gap_small{
+    --gap: 15px;
+    }
+    .grid {
+    grid-template-columns: 1fr;
+    }
+    .grid__fraction {
+    grid-column: span 1;
+    }
 
+    /* Mobile pixel erfect */
     .warning {
         transform: translateY(1px);
     }
-
     .warning .warning__button-wrapper .button {
         transform: translateY(11px);
     }
