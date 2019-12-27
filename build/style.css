@@ -995,9 +995,9 @@ transform: translateY(2px);
     .theme_gap_small {
         --gap: 15px;
       }
-      .grid_row-gap_half {
+      /* .grid_row-gap_half {
         grid-row-gap: 10.5px;
-    }
+    } */
       .grid {
         grid-template-columns: 1fr;
       }
