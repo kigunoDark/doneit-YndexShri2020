@@ -1010,7 +1010,7 @@ transform: translateY(2px);
     }
 
     .warning .warning__button-wrapper .button {
-        transform: translateY(3px);
+        transform: translateY(11px);
     }
     .payment {
         margin-top: 1px;
